@@ -18,12 +18,16 @@
 // 6.boolen
 // 7.NULL
 
-$a="Hello";   //this is string
-$b=12;        //this is number
-$c=12.5;      //this is float
-$d=true;      //this is boolean
-$e=array(1,2,3,4,5); //this is array
-$f=NULL       //this is NULL
+$a="Hello";                                  //this is string
+$b=12;                                       //this is number
+$c=12.5;                                     //this is float
+$d=true;                                     //this is boolean
+$e=array(1,2,3,4,5);                         //this is array
+$f=NULL                                      //this is NULL
+$i = [
+    "key" => "value",                        //this is object
+    "key" => "value",
+];
 
 
 

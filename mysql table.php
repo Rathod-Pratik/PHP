@@ -13,8 +13,7 @@
     $password="";
     
     $connect=mysqli_connect($server,$username,$password,$database);
-//crate table using query
-crate table using query
+    //crate table using query
     $data=" CREATE TABLE .`college` (`Email` VARCHAR(30) NOT NULL , `Password` VARCHAR(13) NOT NULL ) ";
     mysqli_query($connect,$data);
 ?>

@@ -40,6 +40,7 @@
   
   $connect=mysqli_connect($server,$username,$password,$database);
   
+  //inesrt data using form
   if($_SERVER['REQUEST_METHOD'] == 'POST'){
     $Name= $_POST['Name'];
     $Course = $_POST['Course'];
@@ -62,10 +63,21 @@
   // $insertdata="INSERT INTO `college` (`Email`, `Password`) VALUES ('Rathodrathul1928@gmail.com', 'rathul@1234')";
   // mysqli_query($connect,$insertdata);
   
-  //inesrt data using form
+
+  //Display data from mysql
+
+  $sql="SELECT * FROM `college`";
+  $result=mysqli_query($connect,$sql);
+
+  while($row=mysqli_fetch_assoc($result)){
+    echo "hello ".  $row['Name']." your course is ". $row['Course'];
+    echo "<br>";
+  }
   
   ?>
-    <div class="containar">
+
+  <!-- form for input data -->
+    <!-- <div class="containar">
             <form action="/PHP/PHP/datebase.php" id="forms" method="post">
               <h2>Login now</h2>
               <label for="Name`">Name</label>
@@ -78,7 +90,7 @@
               <input type="submit" value="Submit">
               <input type="reset" value="Reset">
             </form>
-          </div>
+          </div> -->
     
 
 </body>

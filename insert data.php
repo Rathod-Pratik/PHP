@@ -11,7 +11,7 @@
     $username="root";
     $database="Royal";
     $password="";
-    
+     
     $connect=mysqli_connect($server,$username,$password,$database);
 
     $data=" CREATE TABLE .`college` (`Email` VARCHAR(30) NOT NULL , `Password` VARCHAR(13) NOT NULL ) ";

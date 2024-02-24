@@ -11,7 +11,7 @@
     $username="root";
     $database="Royal";
     $password="";
-    
+     
     $connect=mysqli_connect($server,$username,$password,$database);
 
     //update record in php

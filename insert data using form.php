@@ -41,10 +41,10 @@
       
       //inesrt data using form
       if($_SERVER['REQUEST_METHOD'] == 'POST'){
-        $Name= $_POST['Name'];
-        $Course = $_POST['Course'];
+        $title= $_POST['title'];
+        $discription = $_POST['description'];
         
-        $data="INSERT INTO `college` (`Name`, `Course`) VALUES ('$Name', '$Course');";
+        $data="INSERT INTO `college` (`title`, `discription`) VALUES ('$title', '$discription');";
         mysqli_query($connect,$data);
         
       }

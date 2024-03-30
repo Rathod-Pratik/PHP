@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>insert data using form php to mysql</title>
+    <style>
     .containar{
         background-color: #dbdbf0;
         border: 2px solid black;

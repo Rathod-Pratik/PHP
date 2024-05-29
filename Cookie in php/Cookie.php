@@ -1,15 +1,13 @@
+<?php
+// Set the cookie
+setcookie("category", "books", time() + 86400, "/");
+?>
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>cookie in php</title>
+    <title>Set Cookie</title>
 </head>
 <body>
-    <?php
-    setcookie("catagory","books",time()+86400,"/");
-    $cat=$_COOKIE["catagory"];
-    echo $cat;
-    ?>
+    <p>Cookie has been set. <a href="read_cookie.php">Go to next page to read the cookie.</a></p>
 </body>
 </html>

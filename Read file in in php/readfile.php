@@ -7,7 +7,7 @@
 </head>
 <body>
     <?php
-readfile ("20. file for read");
+readfile ("file for read");
     ?>
 </body>
 </html>

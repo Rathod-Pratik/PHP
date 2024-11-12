@@ -24,13 +24,6 @@ $c=12.5;                                     //this is float
 $d=true;                                     //this is boolean
 $e=array(1,2,3,4,5);                         //this is array
 $f=NULL                                      //this is NULL
-$i = [
-    "key" => "value",                        //this is object
-    "key" => "value",
-];
-
-
-
 ?>
 </body>
 </html>

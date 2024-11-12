@@ -17,7 +17,7 @@
       }
 
       xhr = new XMLHttpRequest();
-      xhr.open("GET", "25. AJAX database.php?no="+str, true);
+      xhr.open("GET", "AJAX database.php?no="+str, true);
       xhr.onreadystatechange = change;
       xhr.send();
     }
